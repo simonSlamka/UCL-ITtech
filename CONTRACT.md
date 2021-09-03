@@ -6,6 +6,7 @@
 - The meetings will take place during school hours
 - Online meetings are allowed as long as all members agree
 - All members should maximize their effort to meet deadlines
+- In case someone has a difficulty solving a problem or completing a task, they need to ask
 - A list of present members will be made at each meeting by the meeting leader
 - The role of meeting leader will rotate
 - We will use GitHub as a platform to share materials
