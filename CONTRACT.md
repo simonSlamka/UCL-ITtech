@@ -21,6 +21,6 @@
 - If more than a half of the members can't attend a meeting, it will be rescheduled
 
 #### Signatures
-By writing our first name under this contract, we show that we agree with the current rules.
+_By writing our first name under this contract, we show that we agree with the current rules._
 
 Simtoon; 
