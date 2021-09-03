@@ -1,7 +1,6 @@
 # The **Team Contract** of Team 6
 
 ### General
-- Notify the other members if you are late or absent as soon as possible
 - Work seriously, but allow space for fun
 - All members should maximize their effort to meet deadlines
 - In case someone has a difficulty solving a problem or completing a task, they need to ask
@@ -11,6 +10,7 @@
 - We use Discord for project management, operations, discussions; we use Signal for important announcements and notices if someone's late or something
 
 ### Meetings
+- Notify the other members if you are late or absent as soon as possible
 - The role of meeting leader will rotate
 - A list of present members will be made at each meeting by the meeting leader
 - The meetings will take place during school hours
