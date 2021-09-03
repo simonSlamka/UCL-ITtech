@@ -24,3 +24,4 @@
 _By writing our first name under this contract, we show that we agree with the current rules._
 
 Simtoon; 
+Mads;
