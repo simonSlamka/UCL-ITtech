@@ -14,7 +14,7 @@
 - The role of meeting leader will rotate
 - A list of present members will be made at each meeting by the meeting leader
 - The meetings will take place during school hours
-- [meeting frequency]
+- [_meeting frequency_]
 - Online meetings are allowed as long as all members agree
 - The role of note-taker will also rotate
 - The note-taker will make notes from all meetings so we remember what we discussed and decided
