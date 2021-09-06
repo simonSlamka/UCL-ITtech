@@ -27,3 +27,6 @@ Simtoon;
 Mads;
 Dominik;
 Silvija;
+Bogdan;
+Romulus;
+Marko;
