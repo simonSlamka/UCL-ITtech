@@ -5,7 +5,7 @@
 - All members should maximize their effort to meet deadlines
 - In case someone has a difficulty solving a problem or completing a task, they need to ask
 - If a member makes a mistake, they should report it to the others immediately
-- We will use GitHub as a platform to share materials
+- We will use GitLab as a platform to share materials
 - Always be honest to one another and don't spread lies about anything or anyone
 - We use Discord for project management, operations, discussions; we use Signal for important announcements and notices if someone's late or something
 
