@@ -1,4 +1,4 @@
-# The **Team Contract** of Team 6
+# The **Team Contract** of _Team 6_
 
 ### General
 - Work seriously, but allow space for fun
