@@ -5,7 +5,7 @@
 **Please, commit your changes to the appropriate branch !!**
 
 #### In case you're having problems with OpenSSH in Windows:
-- Navigate to ~/.ssh and create a extension-less file called "_config_"
+- Navigate to ~/.ssh and create an extension-less file called "_config_"
 - Insert the following into the file, save, and retry the operation that didn't work:
 ```
 Host gitlab.com
