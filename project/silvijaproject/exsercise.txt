@@ -1,0 +1,14 @@
+KY-011 TWO COLOR LED MODULE
+
+
+KY-011 Description
+3mm Two colour LED module KY-011 for Arduino, emits red and green light. You can adjust the amount of each colour using PWM. This module is similar to KY-029.
+
+KY-011 Specifications
+This module consists of a common cathode 3mm red/green LED and a 0? resistor, since operating voltage is 2.0v ~2.5v you'll need to use limiting resistors to prevent burnout when connecting to the Arduino.
+
+Operating Voltage2.0v ~ 2.5vWorking Current10mADiameter3mmPackage TypeDiffusionColorRed + GreenBeam Angle150Wavelength571nm + 644nmLuminosity Intensity (MCD)20-40; 40-80
+KY-011 Connection Diagram
+We'll use a couple of 330? resistors to limit the current from the Arduino and prevent burning the LED.
+
+
