@@ -5,7 +5,7 @@ width//2
 width/2.0
 height/3
 
-name = input("what is your name, stranger?/n")
+name = input("what is your name, stranger?\n")
 print("welcome, " + name)
 
 hourlyPay = int(input("tell me your hourlyPay, stranger\n"))

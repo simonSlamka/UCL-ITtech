@@ -2,4 +2,4 @@
 
 #ask the user to imput his name
  name = input('What is your name_Hved hilla du?\n')
- print("welcome, " name)
+ print("welcome, " + name)
