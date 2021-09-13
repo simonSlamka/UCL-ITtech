@@ -1,0 +1,41 @@
+Exercise 0:
+1.Syntax error-These are the first errors you will make and the easiest to fix. A
+               syntax error means that you have violated the “grammar” rules of Python.
+               Python does its best to point right at the line and character where it noticed
+               it was confused. The only tricky bit of syntax errors is that sometimes the
+               mistake that needs fixing is actually earlier in the program than where Python
+               noticed it was confused. So the line and character that Python indicates in
+               a syntax error may just be a starting point for your investigation.
+
+  logic error-A logic error is when your program has good syntax but there is
+              a mistake in the order of the statements or perhaps a mistake in how the
+              statements relate to one another. A good example of a logic error might be,
+              “take a drink from your water bottle, put it in your backpack, walk to the
+              library, and then put the top back on the bottle.”
+
+  semantic error-An error in a program that makes it do something other than
+                 what the programmer intended.
+
+2.Input-Putting information in a program 
+
+  Output -Getting some kind of information out of the progrma
+
+3.seqeuntial execution-makes sure that your program is run line by line,as written
+
+4. reading-Examine your code, read it back to yourself, and check that it says what
+   you meant to say.
+   
+   running-Experiment by making changes and running different versions. Often
+           if you display the right thing at the right place in the program, the problem
+           becomes obvious, but sometimes you have to spend some time to build  
+           scaffolding.
+
+   ruminating-Take some time to think!
+
+   retreating-At some point, the best thing to do is back off, undoing recent changes,
+              until you get back to a program that works and that you understand. Then
+              you can start rebuilding.
+
+Exercise 1:
+
+1.
