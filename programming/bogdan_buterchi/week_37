@@ -1,0 +1,11 @@
+#Excersises from PY4E Ch2
+
+#Exercise 1
+name = input("Enter your name: ")
+print("Hello " + name)
+
+#Exercise 2
+hours = int(input("Enter hours per week here: "))
+rate = float(input("Enter your rate here: "))
+payrate = str(hours * rate)
+print("Your pay seems to be " + payrate)
