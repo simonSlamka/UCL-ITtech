@@ -1,0 +1,41 @@
+###Excersises from PY4E Ch2
+
+###Exercise 1
+name = input("Enter your name: ")
+print("Hello " + name)
+
+###Exercise 2
+hours = int(input("Enter hours per week here: "))
+rate = float(input("Enter your rate here: "))
+payrate = str(hours * rate)
+print("Your pay seems to be " + payrate)
+
+###Exercise 3
+width=17
+height=12.0
+
+print(width//2)  # =8, int
+print(width/2.0) # =8.5, float
+print(height/3)  # =4.0, float
+print(1+2*5)     # =11, int
+
+###Exercise 4
+celcius = float(input("insert Celcius temperature here: "))
+fahrent = str(celcius * 1.8 + 32)
+print("Your Temperature in Fahrentheit is: " + fahrent)  # this will convert the value of celcius temp to fahrenheit
+
+
+###Answers that maybe will come in useful
+1. syntax errors are the ones where you forget to put the signs specific to the programming language like "()" and misspelling errors
+   logical errors are when you write ererything correctly but inverse something by mistake
+   semantic errors the code doesn't produce an error but it doesn't do the "right" thing that you want.
+2. the input is when you write code
+   the output is the result of that code writing.
+3. sequential execution is the programe running our code in the order that you write it
+4. 4 steps of debugging are reading running ruminating retreating
+
+1. 3 types: string for a string of words, integers for numbers and floats for decimals
+2. you need to write in the interpreter "type(add here the value)"
+3. variables are the words that you define in a programe
+4. reserved words are the ones that already have a command given to them and you can't assign a different command to them
+5. a statement is code that the interpreter can execute

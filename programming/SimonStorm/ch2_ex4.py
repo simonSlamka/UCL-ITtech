@@ -15,13 +15,7 @@ type (of the value of the expression).
 
 Use the Python interpreter to check your answers.
 '''
-
-cal1 = width//2
-cal2 = width/2.0
-cal3 = height/3
-cal4 = 1 + 2 * 5
-
-print(cal1)
-print(cal2)
-print(cal3)
-print(cal4)
+print(width//2)
+print(width/2.0)
+print(height/3)
+print(1 + 2 * 5)
