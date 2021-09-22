@@ -1,0 +1,3 @@
+A syntax error is an error in the source code of a program. ... A logic error (or logical error) is a 'bug' or mistake in a program's source code that results in incorrect or unexpected behaviour.
+An input device sends information to a computer system for processing, and an output device reproduces or displays the results of that processing. Input devices only allow for input of data to a computer and output devices only receive the output of data from another device.
+3. Sequential execution means that each command in a program script executes in the order in which it is listed in the program. The first command in the sequence executes first and when it is complete, the second command executes, and so on.
