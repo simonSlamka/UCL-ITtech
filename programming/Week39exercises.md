@@ -15,23 +15,22 @@
 
 
 ### 2. How are user functions defined in Python?
-    - def <optional: return type> <funcName>(<optional: inputs>):
-        <implementation>
+    ```def <optional: return type> <funcName>(<optional: inputs>):
+    ```    <implementation>
 
 ### 3. What are function parameters and arguments?
-    - argument - input to the function (goes into the parantheses after the function name)
+    argument - input to the function (goes into the parantheses after the function name)
         EX: ```def squareRoot(int x):
-                <code>
+                   <code>
             ```
-    - parameter - The parameter is a name used inside of a function that is passed as a value of the argument
+    parameter - The parameter is a name used inside of a function that is passed as a value of the argument
 
 ### 4. How do you return values from functions?
-    - type return and after the variable
-    - use the keyword `return` followed by the variable to be returned
+    use the keyword `return` followed by the variable to be returned
         EX: ```def printX(int x):
-                return x
+                   return x
             ```
 
 
-### 5.How do you call a function and assign the return value to a variable?
-x = function()
+### 5. How do you call a function and assign the return value to a variable?
+`x = function()`
