@@ -41,3 +41,12 @@ def printX(int x):
 
 ### 5. How do you call a function and assign the return value to a variable?
 `x = function()`
+
+------------
+
+### Exercise 4
+- it indicated the start of a function
+
+### Exercise 5
+ABCZapABC
+
