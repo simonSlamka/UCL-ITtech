@@ -4,7 +4,7 @@
 
 number1 = 0
 number2 = 0
-operation = 0
+operation = None
 bAsk = 1
 
 def add(number1, number2):

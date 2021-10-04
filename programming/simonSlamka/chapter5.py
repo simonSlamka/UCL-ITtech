@@ -3,7 +3,7 @@
 # the book - chapter 5 exercises
 
 # read integers from user input in a loop until "done" is detected. if anything else is entered, throw an exception
-# count and average the integers at the end of the loop
+# sum and average the integers at the end of the loop
 
 # then, write another program that adds integers into a list and after breaking the loop, print the max and the min int
 # I've combined the two into one
@@ -21,8 +21,8 @@ while bLoop:
     if num == "done":
         break
     try:
-        numList.append(num)
         num = int(num)
+        numList.append(num)
         numSum = numSum + num
         numCount = numCount + 1
     except:
