@@ -34,4 +34,3 @@ if opt == 1:
 if opt == 2:
 
     computegrade(float(input("Please give me a score!\n")))
-
