@@ -12,6 +12,7 @@ the numbers instead of the average.
 '''
 
 numlist = [] # Creates an empty list 
+
 print("Enter a random non-decimal number.\nOnce done, simply type 'done'\n")
 while True:
 	try:
@@ -28,8 +29,8 @@ while True:
 			print(f"Lowest number entered: {min(numlist)}") # Prints the lowest number
 			break
 		else: # If the value from the input is not an int or the word "done"
-			print("Ohh ohh, somtink rooong!!")
-			break
+			print("That was not an int!! Try again...")
+			continue
 	except KeyboardInterrupt:
 		print("Exiting.....")
 		break
