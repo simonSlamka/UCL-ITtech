@@ -1,9 +1,0 @@
-Humidity sensor (DHT22)
-
-it uses a caoasitive humidity sensor
-and a thermistor to measure the surrounding air 
-and sends a digital signal to the data pin.
-
-the first pin on the left is the power pin and takes 3-5 volts
-the second pin from the left is the data pin
-the right most pin is the ground
