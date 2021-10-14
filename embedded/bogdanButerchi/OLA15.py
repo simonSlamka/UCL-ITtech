@@ -28,6 +28,6 @@ while True:
     if btn1.value() == 0:
         led1_blink()
         led_onboard_blink()
-    if btn2.value() == 0:
+    elif btn2.value() == 0:
         led2_blink()
         led_onboard_blink()
