@@ -1,9 +1,0 @@
-Benefits :
--Requiers only one port pin for communication
--Measures temperatures from -55˙C to +125˙C
--requires only 2 pins for operation
-General:
--Its a digital thermometer that provides 9-bit to 12-bit Celsius temperature mesaruments
-Application:
--Thermostatic Controls
--Thermometers etc.
