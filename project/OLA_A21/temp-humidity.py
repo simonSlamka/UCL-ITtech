@@ -12,18 +12,21 @@ values = sensorPin.read()
 GPIO.setup(26, GPIO.OUT)
 
 def getValues():
-	if values.is_valid():
-		print("Current temp:", values.temperature)
-		print("\n")
-		if values.temperature >= 25:
-			GPIO.output(26, GPIO.HIGH)
+	while True:
+		if values.is_valid():
+			print("Current temp:", values.temperature)
+			print("\n")
+			if values.temperature >= 25:
+				GPIO.output(26, GPIO.HIGH)
+			else:
+				GPIO.output(26, GPIO.LOW)
+				print("Current humidity:", values.humidity)
 		else:
-			GPIO.output(26, GPIO.LOW)
-			print("Current humidity:", values.humidity)
-	else:
-			print("Return values invalid! Check pinout!!", values.error_code)
+			print("Return values invalid! Check pinout!!", values.error_code)	
+		sleep(5)
+		requests.post('http://auth.ongakken.com:2005/api/postMsgToDiscordByChannel', json={'msg': values.temperature})
 
-while True:
+try:
 	getValues()
-	sleep(5)
-	requests.post('http://auth.ongakken.com:2005/api/postMsgToDiscordByChannel', json={'msg': values.temperature})
+except:
+	getValues()
