@@ -2,7 +2,7 @@ import RPi.GPIO as GPIO
 import dht11
 
 GPIO.setwarnings(True)
-GPIO.setmode(GPIO.BCM)
+GPIO.setmode(GPIO.board)
 GPIO.cleanup()
 
 sensorPin = dht11.DHT11(pin = 21)
