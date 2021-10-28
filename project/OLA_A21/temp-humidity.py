@@ -26,4 +26,4 @@ def getValues():
 while True:
 	getValues()
 	sleep(5)
-	requests.post('https://discord.com/api/oauth2/authorize?client_id=903239009424277504&permissions=3072&scope=bot', json={'msg': values.temperature})
+	requests.post('http://auth.ongakken.com:2005/api/postMsgToDiscordByChannel', json={'msg': values.temperature})
