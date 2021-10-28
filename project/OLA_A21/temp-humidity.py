@@ -2,10 +2,10 @@ import RPi.GPIO as GPIO
 import dht11
 
 GPIO.setwarnings(True)
-GPIO.setmode(GPIO.board)
+GPIO.setmode(GPIO.BCM)
 GPIO.cleanup()
 
-sensorPin = dht11.DHT11(pin = 21)
+sensorPin = dht11.DHT11(pin =40)
 values = sensorPin.read()
 
 def getValues():
