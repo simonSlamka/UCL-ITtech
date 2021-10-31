@@ -17,6 +17,7 @@ def getValues():
 		print("\n")
 		if values.temperature >= 25:
 			GPIO.output(26, GPIO.HIGH)
+			requests.post('http://auth.ongakken.com:2005/api/postMsgToUCLchannelDiscord', json={'msg': "https://media.giphy.com/media/LMC8paGihNTuo/giphy.gif"})
 		else:
 			GPIO.output(26, GPIO.LOW)
 			print("Current humidity:", values.humidity)
