@@ -28,4 +28,3 @@ def getValues():
 
 while True:
 		getValues()
-		continue
