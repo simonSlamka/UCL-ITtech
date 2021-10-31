@@ -23,8 +23,8 @@ def getValues():
 	else:
 		print("Return values invalid! Check pinout!!", values.error_code)	
 	sleep(5)
-	requests.post('http://auth.ongakken.com:2005/api/postMsgToUCLchannelDiscord', json={'msg': values.temperature})
-	break
+	requests.post('http://auth.ongakken.com:2005/api/postMsgToUCLchannelDiscord', json={'msg': f"Temp: {values.temperature}"})
+	requests.post('http://auth.ongakken.com:2005/api/postMsgToUCLchannelDiscord', json={'msg': f"Humidity: {values.humidity}"})
 
 while True:
 		getValues()
