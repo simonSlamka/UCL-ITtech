@@ -18,15 +18,18 @@ def getValues():
 		print("Current humidity:", values.humidity)
 		if values.temperature >= 25:
 			GPIO.output(26, GPIO.HIGH)
-			requests.post('http://auth.ongakken.com:2005/api/postMsgToUCLchannelDiscord', json={'msg': "https://media.giphy.com/media/LMC8paGihNTuo/giphy.gif"})
+			requests.post('http://auth.ongakken.com:2005/api/postMsgToUCLchannelDiscord', headers={"Content-Type":"application/json"}, json={"msg": "https://media.giphy.com/media/LMC8paGihNTuo/giphy.gif"})
 		else:
 			GPIO.output(26, GPIO.LOW)
 	else:
 		print("Return values invalid! Check pinout!!", values.error_code)
-		requests.post('http://auth.ongakken.com:2005/api/postMsgToUCLchannelDiscord', json={'msg': "Return values invalid! Check pinout!!"})
+		requests.post('http://auth.ongakken.com:2005/api/postMsgToUCLchannelDiscord', headers={"Content-Type":"application/json"}, json={"msg": "Return values invalid! Check pinout!!"})
 	sleep(5)
-	requests.post('http://auth.ongakken.com:2005/api/postMsgToUCLchannelDiscord', json={'msg': f"Temp: {values.temperature}"})
-	requests.post('http://auth.ongakken.com:2005/api/postMsgToUCLchannelDiscord', json={'msg': f"Humidity: {values.humidity}"})
+	requests.post('http://auth.ongakken.com:2005/api/postMsgToUCLchannelDiscord', headers={"Content-Type":"application/json"}, json={'msg': f"Temp: {values.temperature}"})
+	requests.post('http://auth.ongakken.com:2005/api/postMsgToUCLchannelDiscord', headers={"Content-Type":"application/json"}, json={'msg': f"Humidity: {values.humidity}"})
 
 while True:
+	try:
+		getValues()
+	except:
 		getValues()
