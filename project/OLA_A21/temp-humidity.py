@@ -34,5 +34,8 @@ def getValues():
 while True:
 	try:
 		getValues()
+	except KeyboardInterrupt:
+		print("Exiting.....")
+		break
 	except:
-		pass
+		continue
