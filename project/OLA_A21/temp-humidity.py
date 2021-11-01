@@ -2,6 +2,9 @@ import RPi.GPIO as GPIO
 import dht11
 from time import sleep
 import requests
+import sys
+
+sys.stderr = object
 
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BOARD)
@@ -31,8 +34,5 @@ def getValues():
 while True:
 	try:
 		getValues()
-	except KeyboardInterrupt:
-		print("Exiting.....")
-		break
 	except:
-		continue
+		pass
