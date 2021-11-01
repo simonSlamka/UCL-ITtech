@@ -2,6 +2,9 @@ import RPi.GPIO as GPIO
 import dht11
 from time import sleep
 import requests
+import sys
+
+sys.stderr = object
 
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BOARD)
@@ -32,4 +35,4 @@ while True:
 	try:
 		getValues()
 	except:
-		getValues()
+		pass
