@@ -15,6 +15,6 @@
 ### What is parity ?
 - A method for finding errors
 ### Write the names of the 2 UART interfaces on the RPi
-- UART0(Pin 14) and UART1(Pin 15), however the RaspberryPi 4 have four additional UART interfaces that can be enabled through the device tree interface
+- UART_RXD0(Pin 14) and UART_TXD0(Pin 15), however the RaspberryPi 4 have four additional UART interfaces that can be enabled through the device tree interface
 ### Write the RPi UART GPIO numbers
 - UART0 Pin 14 and UART1 Pin 15
