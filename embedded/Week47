@@ -1,0 +1,52 @@
+Week 47 ADC (analog didigtal convertor)
+
+
+# Where can you find specs for the ADC in the RP2040?
+>> Chapter 4.9 https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf (microcontroller)
+
+# Where can you find Python programming reference for the PICO micropython port ?
+>> Chapter 3.3 https://datasheets.raspberrypi.com/pico/raspberry-pi-pico-python-sdk.pdf
+SDK = means software development kit
+
+# What is an analog signal ?
+A signal between minum and maximum value with infinite values in between. It is a contant value that is from a device.
+# What is a digital signal ?
+>> Converts it into 0-1 (binary) and it can be readed by the ADC converting from the analog signal(from the device).
+
+# What is bit depth ?
+>> It is the resolution of the converted signal,
+
+# What is sample rate ?
+The rate of which the analog signal is converted into the digital signal (how many times we read the signal). how often we take sample
+# What type of ADC does the RP2040 use ?
+>> Sar ADC
+# What is the bit depth of the RP2040 ADC ?
+>> 12 bit
+
+# What bit depth is used in micropython ?
+
+>>16 bit
+# How many ADC channels does the RP2040 have ?
+>> 4 channel
+
+# How do you instantiate an ADC channel in micropython
+>> Programmable IO (PIO) support, how many pins are used and if they are in/out pins.
+
+# How do you read the RP2040 internal temperature sensor in micropython ?
+>> 
+ 1 import machine
+ 2 import utime
+ 3
+ 4 sensor_temp = machine.ADC(4)
+ 5 conversion_factor = 3.3 / (65535)
+ 6
+ 7 while True:
+ 8 reading = sensor_temp.read_u16() * conversion_factor
+ 9
+10 # The temperature sensor measures the Vbe voltage of a biased bipolar diode, connected to
+  the fifth ADC channel
+11 # Typically, Vbe = 0.706V at 27 degrees C, with a slope of -1.721mV (0.001721) per degree.
+ 
+12 temperature = 27 - (reading - 0.706)/0.001721
+13 print(temperature)
+14 utime.sleep(2)
