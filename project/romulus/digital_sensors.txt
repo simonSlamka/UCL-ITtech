@@ -1,0 +1,1 @@
+Arduino Sensor. Digital temperature sensors provide industry leading 0.1°C accuracy. The Temperature System Sensors (TSYS) are available in miniature packages designed specifically for tight spaces, and respond quickly to changes in process temperature. The optimized microcircuit design allows fast conversion times along with very low power consumption.

@@ -1,7 +1,13 @@
-# The repo of the 2021 - 2023 class of UCL - IT Technology
+## The repo for the 2021 - 2023 class of UCL - IT Tech, Odense, Denmark
 
-We'll be using this repo to share code, presentations, assignments, notes
+### At this point, only Team 6 has its files here ... shame on the others!
 
-### Each team will have a branch, which will be merged into main on a weekly basis
+**Please, commit your changes to the appropriate branch !!**
 
-This *README.md* is still work-in-progress and is subject to change.
+#### In case you're having problems with OpenSSH in Windows:
+- Navigate to ~/.ssh and create an extension-less file called "_config_"
+- Insert the following into the file, save, and retry the operation that didn't work:
+```
+Host gitlab.com
+	UpdateHostKeys no
+```
